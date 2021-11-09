@@ -32,7 +32,32 @@
     display: none;
     padding: 6px 12px;
 }
+@media (max-width: 767px)
+{
+	header
+	{
+		flex-direction: column;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.bgimg
+	{
+		background-size: 50%;
+	}
+}
+@media (min-width: 992px)
+{
+	.bgimg
+	{
+		background-size: 33%;
+	}
+	.g_slides_pub
+	{
+		--g_slides_pub_width: 75vw;
+	}
 
+}
 .bgimg
 {
 	background-image: url(hondaa.jpg);
